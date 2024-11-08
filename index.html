@@ -4,22 +4,48 @@
   <meta charset="UTF-8">
     <title>Holly Hutchinson</title>
     <link rel="stylesheet" href = "css/mystyle.css">
+    <style>
+        .background{
+           background-image: url(../images/setu.jpg);
+              height:100%;
+            width:100%; 
+           background-size: cover;
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           position:absolute;
+           filter:blur(8px);
+           z-index: -1;
+        }
+        .content{
+            position: relative;
+            z-index: 1;
+            color: orange;
+            text-align: center;
+            padding-top: 50px;
+        }
+    </style>
     </head>
     <body>
+        <div class ="background"></div>
+        <div class="content"></div>
         <header>
-            <h1>Holly Hutchinson</h1>
+            <h1><u>Holly Hutchinson</u></h1>
              <nav>
+                 <div class = links>
    <a href="index.html">Home</a> 
    <a href="aboutme.html">About me</a>
-     <a href="hobbies.html">My Hobbies</a>
-   <a href="pets.html">My Pets</a> 
-    <a href="jobs.html">My Jobs</a>
-</nav>
+     <a href="hobbies.html">Hobbies</a>
+   <a href="pets.html">Pets</a> 
+    <a href="jobs.html">Jobs</a>
+                 </div></nav>
         
-            <p> Software Systems Development Student</p>
         </header>
         <main>
+            <div class="blurred-background">
+       
             <h2>Welcome to my personal website!</h2>
             <p>This is where you'll get to learn a bit more about me through my interests, my hobbies etc.</p>
+            <p> Software Systems Development Student</p>
+            </div>
         </main>
     </body>

@@ -1,0 +1,142 @@
+p{
+    color: navy;
+    background-color:azure;
+    text-align: justify;
+    padding: 4px;
+}
+
+h1{
+    color: lightcoral;
+    text-align: center;
+}
+
+h2{
+    color: lightcoral;
+        text-align: center;
+}
+
+h3{
+    color: darkblue;
+    padding: 5px;
+}
+
+body{
+ font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin:0;
+    
+
+        
+}
+
+div{
+ 
+   
+
+}
+
+
+
+.links {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.links a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 18.4%;
+    text-align: center;
+}
+
+.links a:hover {
+    background-color: lightcoral;
+    font-size: large;
+    font-style:oblique;
+}
+
+.links a.active {
+    background-color: #04AA6D;
+}
+
+
+
+.bumpyimg{
+    float: left;
+    margin-left:3%;
+    margin-top:1%;
+}
+
+.bumpy{
+    float: left;
+    width: 200px;
+    margin-top: 16%;
+    margin-left: -13%;
+        filter:opacity(0.8);
+    border: 1px solid navy;
+     background-color: whitesmoke;
+    border-color: navy;
+    border-bottom-style: groove;
+}
+
+.glameowimg{
+    float: left;
+    margin-left: 7%;
+    margin-top: 1%;
+        
+}
+
+.glameow{
+    float: left;
+    width:200px;
+    margin-top:16%;
+    margin-left: -13%;
+    filter:opacity(0.8);
+    border: 1px solid navy;
+    background-color: whitesmoke;
+}
+
+.jhoppaimg{
+    float:right;
+    margin-right: 4%;
+    margin-top: 1%;
+}
+
+.jhoppa{
+    float: right;
+    width:200px;
+    margin-top: 16%;
+    margin-right: -13%;
+    filter:opacity(0.8);
+    border: 1px solid navy;
+    background-color: whitesmoke;
+}
+
+.bambiimg{
+     float:right;
+    margin-right: 7%;
+    margin-top: 1%;
+}
+
+.bambi{
+    float: right;
+    width:200px;
+    margin-top: 16%;
+    margin-right: -13%;
+    filter:opacity(0.8);
+    border: 1px solid navy;
+    background-color: whitesmoke;
+}
+.about{
+    text-align: center;
+    float: left;
+    margin-left: 28%;
+    margin-top: 1%;
+     filter:opacity(0.8);
+    border: 1px solid navy;
+    background-color: whitesmoke;
+}
