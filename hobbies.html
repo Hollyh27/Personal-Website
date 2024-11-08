@@ -2,13 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-    <title>My Hobbies</title>
+   <title>My Hobbies</title>
      <link rel="stylesheet" href = "css/mystyle.css">
+    
+    
+    <style>
+        body, html{
+            height: 100%;
+            margin: 0%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .background{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-image: url(images/setu.jpg);
+            background-position: center;
+            filter: blur(5px);
+            z-index: -1;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #book {
+           background-image: url(images/book.png);
+            background-repeat: no-repeat;
+            background-position:top right;
+             padding-left: 10px;
+            padding-right: 10px;
+        }
+            
+        #ps5 {
+              background-image: url(images/ps5.png);
+            background-repeat: no-repeat;
+            background-position:top right;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+        #movie{
+              background-image: url(images/movie.png);
+            background-repeat: no-repeat;
+            background-position:bottom right;
+             padding-left: 10px;
+            padding-right: 10px;
+        }
+        
+    </style>
+    
     </head>
+    
     <body>
+        
+        <div class ="background"></div>
+        
     <header>
-        <h1><u>My Hobbies</u></h1>
+         <h1>My Hobbies</h1>
          </header>
+        
         <nav>
             <div class = links>
              <a href="index.html">Home</a> 
@@ -17,29 +68,35 @@
              <a href="pets.html">Pets</a> 
              <a href="jobs.html">Jobs</a> 
             </div></nav>
+        
+        <br>
+        
         <main>
             
-            <img src="images/Books.jpg" alt="Stack of books" width="200" height"340">
-            <img src="images/ps.jpg" alt="Playstation 5" width="200" height"340">
-            <img src="images/coraline.jpg" alt="Coraline poster" width="200" height"340">
-            
-            <div>
+            <div id = "book">
                 <h3><u>Reading</u></h3>
-        <p>My main hobby is reading. This is what i spent most of my free time doing. I read everyday after college and for a while before bed each night. </p>
-            <p>My favourite book series is <i>Throne of Glass</i> by Sarah J. Maas. It is an 8 book fantasy series which follows the journey an 18 year old assassin through a world filled with secrets, magic, and power struggles. Along the way she uncovers the truth about the world and ends in an epic confrontation.</p>
+           <p>My main hobby is reading. This is what i spent most of my free time doing. I read everyday after college and for a while before bed each night. </p>
+            <p>My favourite book series is <i>Throne of Glass</i> by Sarah J. Maas. It is an 8 book fantasy series which follows the journey an 18 year old assassin through a world filled with secrets, magic, and power struggles. Along the way she uncovers the truth about the world and ends in an epic confrontation. I even used the popular quote as my yearbook quote in secondary school.</p>
+                <blockquote><i><b>"To whatever end"</b></i></blockquote>
             </div>
             
-            <div>
+            <br>
+            
+            <div id = "movie">
+                <h3><u>Watching Movies</u></h3>
+            <p>I really love watching movies and rating them on <a href="http://www.letterboxd.com" target="_blank">Letterboxd</a>. I Think that it is really fun getting to read my friends funny reviews on movies</p>
+            <p>My favourite movie of all time is <i>Coraline</i>. It has been my favourite movie since the first time i watched it when i was 7. I think that the style and the music in the movie are extremely impressive, along with the really interesting storyline.</p>
+            </div>
+            
+            <br>
+            
+             <div id = "ps5">
                 <h3><u>Video Games</u></h3>
             <p>I really enjoy playing video games in my free time. I love playing with friends and alone.</p>
             <p>My favourite games to play alone are <i>The Last Of Us</i>, <i>Spider-man</i> and <i>God of War</i>. All of these are really enjoyable story games which i recommend to everyone!</p>
             <p>My favourite games to play with friends are <i>Minecraft</i>, <i>Fortnite</i> and <i>phasmophobia</i>. I have so much fun everytime i play all of these.</p>
             </div>
             
-            <div>
-                <h3><u>Watching Movies</u></h3>
-            <p>I really love watching movies and rating them on <a href="http://www.letterboxd.com" target="_blank">Letterboxd</a>. I Think that it is really fun getting to read my friends funny reviews on movies</p>
-            <p>My favourite movie of all time is <i>Coraline</i>. It has been my favourite movie since the first time i watched it when i was 7. I think that the style and the music in the movie are extremely impressive, along with the really interesting storyline.</p>
-            </div>
+          
         </main>
     </body>
