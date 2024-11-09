@@ -287,3 +287,11 @@ ul{
 ol{
     color:darkmagenta;
 }
+
+#movietitle{
+text-align:left;
+}
+
+#gamestitle{
+    text-align:left;
+}
