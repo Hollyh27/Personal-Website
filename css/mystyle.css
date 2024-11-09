@@ -25,6 +25,7 @@ h2{
 h3{
     color: darkblue;
     padding: 5px;
+    text-align:center;
 }
 
 body{
@@ -39,11 +40,14 @@ body{
 div{
  
     border: 1px solid navy;
-    background-color: whitesmoke;
-     filter:opacity(0.8);
+    background-color: rgb(245 245 245 / 70%);
 
 }
 
+section{
+  
+    
+}
 
 
 .links {
@@ -74,72 +78,7 @@ div{
 
 
 
-.bumpyimg{
-    float: left;
-    margin-left:3%;
-    margin-top:1%;
-}
 
-.bumpy{
-    float: left;
-    width: 200px;
-    margin-top: 16%;
-    margin-left: -13%;
-        filter:opacity(0.8);
-    border: 1px solid navy;
-     background-color: whitesmoke;
-    border-color: navy;
-    border-bottom-style: groove;
-}
-
-.glameowimg{
-    float: left;
-    margin-left: 7%;
-    margin-top: 1%;
-        
-}
-
-.glameow{
-    float: left;
-    width:200px;
-    margin-top:16%;
-    margin-left: -13%;
-    filter:opacity(0.8);
-    border: 1px solid navy;
-    background-color: whitesmoke;
-}
-
-.jhoppaimg{
-    float:right;
-    margin-right: 4%;
-    margin-top: 1%;
-}
-
-.jhoppa{
-    float: right;
-    width:200px;
-    margin-top: 16%;
-    margin-right: -13%;
-    filter:opacity(0.8);
-    border: 1px solid navy;
-    background-color: whitesmoke;
-}
-
-.bambiimg{
-     float:right;
-    margin-right: 7%;
-    margin-top: 1%;
-}
-
-.bambi{
-    float: right;
-    width:200px;
-    margin-top: 16%;
-    margin-right: -13%;
-    filter:opacity(0.8);
-    border: 1px solid navy;
-    background-color: whitesmoke;
-}
 .about{
     text-align: center;
     float: left;
@@ -161,6 +100,12 @@ div{
   height: 400px;
 }
 
+#picofme{
+    display:flex;
+    margin-left:37%;
+    border-radius:20%;
+}
+
 #movie{
      float: left;
     width: 300px;
@@ -179,7 +124,166 @@ div{
     border-width:medium;
 }
 
-.flo{
-    
-    margin-left:10%;
+
+div.bumpyimg em {
+    color:indianred;
+}
+
+div.glameowimg em{
+    color:darkgreen;
+}
+
+div.bambiimg em{
+    color:lightsalmon;
+}
+
+div.jhoppaimg em {
+    color:mediumpurple;
+}
+
+
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    width: 1480px;
+    height:290px;
+    margin-left:1%;
+    justify-content: space-between;
+}
+
+.container{
+     display:flex;
+    flex-direction: row-reverse;
+    width: 1480px;
+    height:290px;
+    margin-left:1%;
+}
+
+
+#bg{
+    background-color: rgb(245 245 245 / 70%);
+}
+.flex-container-3{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+        align-items:center;
+    height: 595px;
+    background-color:transparent;
+}
+
+.flex-item-left{
+    width:201.5px;
+    border-left-style: groove;
+}
+
+.flex-item-middle{
+    width:201.5px;
+}
+
+.flex-item-middle2{
+    width:201.5px;
+}
+
+.flex-item-right{
+    width:201.5px;
+}
+
+#animal1{
+    color:navy;
+}
+
+#animal2{
+    color:navy;
+}
+
+#animal3{
+    color:navy;
+}
+
+#animal4{
+    color:navy;
+}
+
+.flex-container-4{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    background-color:transparent;
+    border:none;
+    height:90px;
+    align-items:center;
+}
+
+.flex-item-1{
+border: none;
+    background-color:transparent;
+}
+
+.flex-item-2{
+    border:none;
+}
+
+.flex-item-3{
+    border: none;
+    background-color:transparent;
+}
+ table {
+       border-collapse: collapse;
+       border: 2px solid rgb(200,200,200);
+       letter-spacing: 1px;
+       font-size: 0.8rem;
+       margin:0em 0em 3em 1em;
+     align-content: center;
+     }
+
+     td, th {
+       border: 1px rgb(240,128,128);
+       padding: 10px 20px;
+     }
+
+     th {
+       background-color: lightpink;
+     }
+
+     caption {
+	   text-align:center;
+     }
+
+.flex-container-5{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:transparent;
+    align-items:center;
+    border:none;
+}
+
+.flex-item-a{
+    height: 270px;
+    width: 400px;
+}
+
+.flex-item-b{
+    border:none;
+    background-color:transparent;
+}
+
+.flex-item-c{
+    width:400px;
+    height: 270px;
+}
+
+figcaption{
+    color: navy;
+        background-color: rgb(245 245 245 / 70%);
+    text-align: center;
+}
+
+ul{
+    color:darkmagenta;
+}
+
+ol{
+    color:darkmagenta;
 }
