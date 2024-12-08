@@ -62,7 +62,7 @@ section{
     color: white;
     text-decoration: none;
     font-size: 17px;
-    width: 18.4%;
+    width: 25%;
     text-align: center;
 }
 
@@ -153,7 +153,7 @@ div.jhoppaimg em {
 
 .container{
      display:flex;
-    flex-direction: row-reverse;
+    flex-direction:row-reverse;
     width: 1480px;
     height:290px;
     margin-left:1%;
@@ -294,4 +294,93 @@ text-align:left;
 
 #gamestitle{
     text-align:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ui.card .description {
+  font-style:italic;
+  font-weight:bold;
+}
+
+.ui.card .date {
+  color:darkblue;
+}
+.ui center aligned row grid{
+    
+    margin-right:10px;
+}
+
+.ui contained{
+    display:flex;
+    
+}
+
+fieldset {
+     border: solid black 1px; 
+     margin-bottom:1em;
+}
+
+#tlouh{
+color:darkblue;
+    
+}
+
+#tloutr{
+    background-color:lightblue;
+}
+
+#tloutd{
+    background-color:whitesmoke;
+}
+
+
+/* Tabular Menu */
+.ui.tabular.menu {
+    margin-bottom:1em;
+}
+
+/* Menu items */
+.ui.tabular.menu .item {
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: white;
+  
+}
+
+/* Hover */
+.ui.tabular.menu .item:hover {
+    background-color:lightcoral;
+    color:white;
+    border-radius: 0.28571429rem 0.28571429rem 0px 0px !important;
+    border-color: #9FB6CD;
+
+}
+
+/* Active */
+.ui.tabular.menu .active.item {
+    background-color:lightcoral;
+    color:white;
+    border-color: #256290;
+}
+
+/*Bottom segment */
+.ui.bottom.attached.segment {
+  background: none transparent;
+  border-color: #9FB6CD;
 }
